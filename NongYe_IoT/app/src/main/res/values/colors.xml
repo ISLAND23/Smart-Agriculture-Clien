@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey">			#808080</color><!--灰色 -->
+    <color name="lightgrey">	#d3d3d3</color><!--亮灰色 -->
+    <color name="antiquewhite">	#faebd7</color><!--古董白 -->
+    <color name="ghostwhite">	#f8f8ff</color><!--幽灵白 -->
+    <color name="whitesmoke">	#f5f5f5</color><!--烟白色 -->
+    <color name="beige">		#f5f5dc</color><!--米色 -->
+    <color name="ivory">		#fffff0</color><!--象牙色 -->
+</resources>

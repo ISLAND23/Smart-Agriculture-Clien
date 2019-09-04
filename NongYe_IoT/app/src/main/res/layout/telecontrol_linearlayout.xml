@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/deng">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:paddingLeft="50dp">
+                <TextView
+                    android:id="@+id/buguangdeng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="00Lux"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="/"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                    <TextView
+                        android:id="@+id/buguangdeng_shiyi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="150Lux"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Relay9_Button"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="100dp"
+                    android:background="@drawable/off"
+                    android:text="补光灯"
+                    android:textSize="12sp"/>
+
+             </LinearLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/celian">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:paddingLeft="50dp">
+                    <TextView
+                        android:id="@+id/yihao_celian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="00Lux"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="/"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                    <TextView
+                        android:id="@+id/yihao_celian_shiyi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="150Lux"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Relay4_Button"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/off"
+                    android:layout_marginLeft="100dp"
+                    android:textSize="12sp"
+                    android:text="侧帘"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/nuanfengji">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:paddingLeft="80dp">
+                    <TextView
+                        android:id="@+id/yihao_nuanfengji"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="00℃"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="/"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                    <TextView
+                        android:id="@+id/yihao_nuanfengji_shiyi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="25℃"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Relay12_Button"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/off"
+                    android:layout_marginLeft="102dp"
+                    android:textSize="10sp"
+                    android:text="１号暖风机"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/nuanfengji2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:paddingLeft="80dp">
+                <TextView
+                    android:id="@+id/erhao_nuanfengji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="00℃"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="/"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+                <TextView
+                    android:id="@+id/erhao_nuanfengji_shiyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="25℃"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Relay13_Button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/off"
+                android:layout_marginLeft="102dp"
+                android:textSize="10sp"
+                android:text="2号暖风机"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/tianchuang">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="50dp">
+
+                <TextView
+                    android:id="@+id/yihao_dingchuang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="00PPm"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="/"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/yihao_dingchuang_shiyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="650PPm"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Relay5_Button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="77dp"
+                android:background="@drawable/off"
+                android:text="1号顶窗"
+                android:textSize="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/dingchuang2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="50dp">
+
+                <TextView
+                    android:id="@+id/erhao_dingchuang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="00PPm"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="/"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/erhao_dingchuang_shiyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="650PPm"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Relay6_Button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="77dp"
+                android:background="@drawable/off"
+                android:text="2号顶窗"
+                android:textSize="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/cechaung">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="50dp">
+
+                <TextView
+                    android:id="@+id/yihao_cechuang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="00PPm"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="/"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/yihao_cechuang_shiyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="650PPm"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Relay7_Button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="77dp"
+                android:background="@drawable/off"
+                android:text="侧窗"
+                android:textSize="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/tongfengji">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:paddingLeft="50dp">
+                <TextView
+                    android:id="@+id/tongfengji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="00PPm"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="/"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+                <TextView
+                    android:id="@+id/tongfengji_shiyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="650PPm"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Relay8_Button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/off"
+                android:layout_marginLeft="78dp"
+                android:textSize="10sp"
+                android:text="通风机"/>
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/pengwu">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:paddingLeft="80dp">
+                    <TextView
+                        android:id="@+id/penwuqi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="00%"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="/"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                    <TextView
+                        android:id="@+id/penwuqi_shiyi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="100%"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/Relay14_Button"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/off"
+                    android:layout_marginLeft="109dp"
+                    android:textSize="10sp"
+                    android:text="喷雾器"/>
+            </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/guangai">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:paddingLeft="80dp">
+                <TextView
+                    android:id="@+id/guangaifamen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="00%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="/"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+                <TextView
+                    android:id="@+id/guangaifamen_shiyi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="35%"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Relay15_Button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="109dp"
+                android:background="@drawable/off"
+                android:textSize="10sp"
+                android:text="灌溉阀门"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/nongyao">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:paddingLeft="100dp">
+                    <TextView
+                        android:id="@+id/nongyao_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=""
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/Relay16_Button"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/off"
+                    android:layout_marginLeft="180dp"
+                    android:textSize="10sp"
+                    android:text="农药"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:background="@drawable/feiliao">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:paddingLeft="60dp">
+                        <TextView
+                            android:id="@+id/feiliao_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="    "
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            />
+                    </LinearLayout>
+                        <Button
+                            android:id="@+id/Relay17_Button"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/off"
+                           android:layout_marginLeft="200dp"
+                            android:text="肥料"
+                            android:textSize="10sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
